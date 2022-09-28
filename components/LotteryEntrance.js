@@ -14,6 +14,8 @@ export default function LotteryEntrance() {
   const [entranceFee, setEntranceFee] = useState("0");
   const [numPlayers, setNumPlayers] = useState("0");
   const [recentWinner, setRecentWinner] = useState("0");
+  console.log(chainId);
+  console.log(lotteryAddress);
 
   const dispatch = useNotification();
 
